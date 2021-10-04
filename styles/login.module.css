@@ -1,5 +1,5 @@
-.signUp {
-  height: 500px;
+.login {
+  height: 300px;
 }
 .info {
   margin-top: 5px;
@@ -10,7 +10,7 @@
   .column {
     display: flex;
   }
-  .signUp {
+  .login {
     width: 50%;
     margin-left: 100px;
   }
