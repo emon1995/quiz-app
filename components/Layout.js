@@ -1,5 +1,4 @@
 import classes from '../styles/layout.module.css';
-import Footer from "./Footer";
 import Navbar from "./Navbar";
 
 const Layout = ({children}) => {
@@ -11,7 +10,6 @@ const Layout = ({children}) => {
             {children}
             </div>
         </main>
-        <Footer />
         </>
     )
 }

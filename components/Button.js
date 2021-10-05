@@ -1,9 +1,9 @@
 import classes from '../styles/button.module.css'
 
-const Button = ({children}) => {
+const Button = ({className, children}) => {
     return (
-        <div className={classes.button}>
-            <span>{children}</span>
+        <div className={`${classes.button} ${className}`}>
+            {children}
         </div>
     )
 }

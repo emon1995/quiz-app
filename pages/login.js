@@ -22,10 +22,10 @@ const Login = () => {
           <RiLockPasswordLine />
         </TextInput>
         
-        <Button>Submit Now</Button>
+        <Button><span>Submit Now</span></Button>
 
         <div className={classes.info}>
-            Don&apos;t have an account? <Link href="login.html"><a>Signup</a></Link> instead.
+            Don&apos;t have an account? <Link href="/signup"><a>Signup</a></Link> instead.
         </div>
       </Form>
       </div>

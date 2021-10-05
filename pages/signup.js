@@ -34,10 +34,10 @@ const Signup = () => {
 
         <CheckBox text=" I agree to the Terms &amp; Conditions" />
 
-        <Button>Submit Now</Button>
+        <Button><span>Submit Now</span></Button>
 
         <div className={classes.info}>
-            Already have an account? <Link href="login.html"><a>Login</a></Link> instead.
+            Already have an account? <Link href="/login"><a>Login</a></Link> instead.
         </div>
       </Form>
       </div>
